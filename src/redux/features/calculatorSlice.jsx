@@ -12,7 +12,6 @@ const initialState = {
   roasIncrease: 0,
   savings: 85000
 };
-
 const calculatorSlice = createSlice({
   name: "calculator",
   initialState,
@@ -37,6 +36,5 @@ const calculatorSlice = createSlice({
     },
   },
 });
-
 export const { updateAdSpend, updateRevenue } = calculatorSlice.actions;
 export default calculatorSlice.reducer;

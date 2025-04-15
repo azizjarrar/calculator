@@ -14,7 +14,6 @@ const RangeSlider = (props) => {
       dispatch(updateAdSpend(e.target.value, "CurrentMonthlyAdSpend"));
     }else{
       dispatch(updateRevenue(e.target.value, "CurrentMonthlyRevenue"));
-
     }
     setValue(Number(e.target.value));
   };
